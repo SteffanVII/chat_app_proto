@@ -1,0 +1,21 @@
+#main {
+    min-width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #signup-form {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 20px;
+
+        height: fit-content;
+
+        padding: 20px;
+
+        border: 1px solid black;
+    }
+}

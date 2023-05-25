@@ -1,0 +1,18 @@
+#typer {
+    padding: 10px;
+    // outline: 1px solid red;
+
+    // background: linear-gradient( transparent, rgb(236, 236, 236) );
+}
+
+#message-textbox {
+    width: 100%;
+    height: fit-content;
+
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    resize: none;
+
+    background-color: rgb(231, 237, 243);
+}

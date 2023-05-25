@@ -1,0 +1,52 @@
+#message-thread {
+    max-height: 100vh;
+
+    position: relative;
+    // padding: 10px;
+
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+
+    #conversation-head {
+        height: fit-content;
+        background: linear-gradient( rgb(236, 236, 236), transparent );
+        
+        display: flex;
+        align-items: center;
+        padding: 10px;
+
+        #thread-image {  
+            width: 40px;
+            height: 40px;
+    
+            border-radius: 50%;
+    
+            background-color: gray;
+        }
+    }
+
+    #message-floats-container {
+        height: 100%;
+        max-height: 100%;
+        // outline: 1px solid red;
+
+        display: flex;
+        flex-flow: column-reverse;
+        gap: 5px;
+
+        overflow-y: auto;
+
+        padding: 10px;
+    }
+}
+
+#conversation-center {
+    padding: 10px;
+
+    display: grid;
+    grid-template-rows: min-content 1fr min-content
+}
+
+#new-recipient-email {
+    width: 100%;
+}
